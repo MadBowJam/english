@@ -1,0 +1,71 @@
+body, h1, h2, h3, h4, h5, h6, ul, li, p, a, img, span, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background: url(../img/twilight2.svg);
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  font-family: 'RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght';
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: 'RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght';
+  src: url("../fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.eot");
+  src: url("../fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.welcome {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #ffffff;
+  width: 565px;
+  margin-top: -106px;
+}
+
+.welcomeTitle {
+  font-size: 35px;
+  font-variation-settings: 'wght' 200;
+  text-align: center;
+}
+
+.welcomeButton {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #58cc02;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin: 15px auto 0;
+  width: 565px;
+  height: 50px;
+}
+
+.welcomeButton.more {
+  background-color: rgba(88, 204, 2, 0);
+  border: 2px solid #58cc02;
+}
