@@ -38,11 +38,26 @@ button {
 
 .welcome {
   position: absolute;
-  left: 50%;
+  left: 45%;
   top: 50%;
   color: #ffffff;
   width: 565px;
   margin-top: -106px;
+}
+
+.welcomeImage {
+  background: url(img/earth.svg);
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  margin: -19px 0 0 -300px;
+  -webkit-transition: all linear 1s;
+  -o-transition: all linear 1s;
+  transition: all linear 1s;
+}
+
+.welcomeImage:hover {
+  background: url(img/flag.svg);
 }
 
 .welcomeTitle {

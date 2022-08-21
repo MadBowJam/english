@@ -1,15 +1,23 @@
 .welcome {
     position: absolute;
-    left: 50%;
+    left: 45%;
     top: 50%;
     color: $white;
     width: 565px;
     margin-top: -106px;
 
-    // &Title {
-    //     font-variation-settings: 'wght' 600;
-    //     font-size: 60px;
-    // }
+    &Image {
+        background: url(img/earth.svg);
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        margin: -19px 0 0 -300px;
+        transition: all linear 1s;
+
+        &:hover {
+            background: url(img/flag.svg);
+        }
+    }
 
     &Title {
         font-size: 35px;
